@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ihsanulhaq Fadhlurrohman — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;800&family=Syne:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+  </head>
+  <body>
+    <!-- CURSOR CUSTOM -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-trail" id="cursorTrail"></div>
+
+    <!-- NOISE OVERLAY -->
+    <div class="noise"></div>
+
+    <!-- NAV -->
+    <nav class="nav" id="nav">
+      <div class="nav-logo">
+        <span class="bracket">[</span>
+        <span class="logo-text">NFH</span>
+        <span class="bracket">]</span>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#about"><span class="nav-num">01.</span>about</a>
+        </li>
+        <li>
+          <a href="#services"><span class="nav-num">02.</span>services</a>
+        </li>
+        <li>
+          <a href="#projects"><span class="nav-num">03.</span>projects</a>
+        </li>
+        <li>
+          <a href="#contact"><span class="nav-num">04.</span>contact</a>
+        </li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-bg-grid"></div>
+      <div class="hero-content">
+        <div class="hero-tag">
+          <span class="dot blink"></span>
+          <span>available for freelance</span>
+        </div>
+        <h1 class="hero-name">
+          <span class="line-1 reveal-up">Ihsanulhaq</span>
+          <span class="line-2 reveal-up delay-1">Fadhlurrohman</span>
+        </h1>
+        <div class="hero-role">
+          <span class="role-prefix">$ </span>
+          <span class="typewriter" id="typewriter"></span>
+          <span class="cursor-type">_</span>
+        </div>
+        <p class="hero-desc reveal-up delay-2">
+          Mahasiswa yang suka membangun hal-hal digital.<br />
+          Dari ide ke kode — satu proyek dalam satu waktu.
+        </p>
+        <div class="hero-cta reveal-up delay-3">
+          <a href="#projects" class="btn-primary">lihat_karya.exe</a>
+          <a href="#contact" class="btn-ghost">hubungi_aku →</a>
+        </div>
+      </div>
+      <div class="hero-decoration">
+        <div class="deco-box">
+          <div class="deco-line">const me = {</div>
+          <div class="deco-line indent">
+            status: <span class="green">"open"</span>,
+          </div>
+          <div class="deco-line indent">
+            level: <span class="green">"mahasiswa"</span>,
+          </div>
+          <div class="deco-line indent">
+            coffee: <span class="green">Infinity</span>,
+          </div>
+          <div class="deco-line">}</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="section-header">
+        <span class="section-num">01</span>
+        <h2 class="section-title">about_me</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Halo! Aku <strong>Ihsanulhaq Fadhlurrohman</strong>, mahasiswa yang
+            jatuh cinta sama dunia digital. Perjalananku dimulai dari rasa
+            penasaran: <em>"gimana cara website ini dibuat?"</em>
+          </p>
+          <p>
+            Sekarang aku membantu klien mewujudkan ide mereka menjadi produk
+            nyata — mulai dari website, desain, hingga solusi digital lainnya.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">0+</span>
+              <span class="stat-label">projects selesai</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">∞</span>
+              <span class="stat-label">semangat belajar</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">24/7</span>
+              <span class="stat-label">always building</span>
+            </div>
+          </div>
+        </div>
+        <div class="skills-box">
+          <div class="skills-title">// tech_stack</div>
+          <div class="skills-grid">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Figma</span>
+            <span class="skill-tag">+ masih belajar</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+      <div class="section-header">
+        <span class="section-num">02</span>
+        <h2 class="section-title">services</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">&#x2665;</div>
+          <h3 class="service-name">Web Development</h3>
+          <p class="service-desc">
+            Membangun website yang cepat, responsif, dan sesuai kebutuhanmu dari
+            nol.
+          </p>
+          <div class="service-tags">
+            <span>HTML</span><span>CSS</span><span>JS</span>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">&#x25A0;</div>
+          <h3 class="service-name">UI Design</h3>
+          <p class="service-desc">
+            Desain tampilan yang bersih, modern, dan enak dipandang pengguna.
+          </p>
+          <div class="service-tags">
+            <span>Figma</span><span>Prototype</span>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">&#x25B2;</div>
+          <h3 class="service-name">Landing Page</h3>
+          <p class="service-desc">
+            Landing page yang menarik untuk bisnis, event, atau produkmu.
+          </p>
+          <div class="service-tags">
+            <span>Responsive</span><span>Fast</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+      <div class="section-header">
+        <span class="section-num">03</span>
+        <h2 class="section-title">projects</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-img placeholder">
+            <span>// coming soon</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="project-tag">Web</span>
+              <span class="project-year">2025</span>
+            </div>
+            <h3 class="project-name">Project Name</h3>
+            <p class="project-desc">
+              Deskripsi singkat tentang project ini. Apa yang dibuat dan untuk
+              siapa.
+            </p>
+            <div class="project-links">
+              <a href="#" class="project-link">live →</a>
+              <a href="#" class="project-link">github →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img placeholder">
+            <span>// coming soon</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="project-tag">Design</span>
+              <span class="project-year">2025</span>
+            </div>
+            <h3 class="project-name">Project Name</h3>
+            <p class="project-desc">
+              Deskripsi singkat tentang project ini. Apa yang dibuat dan untuk
+              siapa.
+            </p>
+            <div class="project-links">
+              <a href="#" class="project-link">live →</a>
+              <a href="#" class="project-link">github →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card add-card">
+          <div class="add-card-inner">
+            <span class="add-icon">+</span>
+            <span>Tambah Project</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="section-header">
+        <span class="section-num">04</span>
+        <h2 class="section-title">contact</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-content">
+        <div class="contact-left">
+          <h3 class="contact-heading">Ada project<br />di pikiran kamu?</h3>
+          <p class="contact-sub">
+            Ayo ngobrol. Aku selalu terbuka untuk kolaborasi dan proyek baru.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:email@example.com" class="contact-item">
+              <span class="ci-label">email</span>
+              <span class="ci-val">email@example.com</span>
+            </a>
+            <a
+              href="https://github.com/nulhaqfadh"
+              target="_blank"
+              class="contact-item"
+            >
+              <span class="ci-label">github</span>
+              <span class="ci-val">github.com/nulhaqfadh</span>
+            </a>
+            <a href="#" class="contact-item">
+              <span class="ci-label">instagram</span>
+              <span class="ci-val">@nulhaqfadh</span>
+            </a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label>nama_</label>
+              <input type="text" placeholder="siapa kamu?" required />
+            </div>
+            <div class="form-group">
+              <label>email_</label>
+              <input type="email" placeholder="email kamu" required />
+            </div>
+            <div class="form-group">
+              <label>pesan_</label>
+              <textarea
+                placeholder="ceritain projectmu..."
+                rows="4"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn-primary full">
+              kirim_pesan.send()
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <span class="footer-copy"
+          >© 2025 <strong>NULHAQFADH</strong> — dibuat dengan ☕ &
+          semangat</span
+        >
+        <span class="footer-made">built with HTML, CSS, JS</span>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
